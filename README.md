@@ -12,7 +12,9 @@ bash -c "cd eatgo-customer-web && npm install"
 bash -c "cd eatgo-restaurant-web && npm install"
 # Run with Docker
 Docker용 환경 설정 파일을 복사합니다.
+
 .env 파일은 필요에 따라 수정해서 사용하시면 됩니다.
+
 cp .env.default .env
 
 # 컨테이너를 모두 실행합니다.
