@@ -3,7 +3,7 @@
 SPRING_PROFILES_ACTIVE=test ./gradlew cleanTest test
 
 # Build JAR
-./gradlew bootJar
+gradlew bootJar
 # Install dependencies for web
 bash -c "cd eatgo-admin-web && npm install"
 
