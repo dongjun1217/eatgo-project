@@ -1,6 +1,6 @@
 # 사용법
 # Test all
-SPRING_PROFILES_ACTIVE=test ./gradlew cleanTest test
+SPRING_PROFILES_ACTIVE=test gradlew cleanTest test
 
 # Build JAR
 gradlew bootJar
